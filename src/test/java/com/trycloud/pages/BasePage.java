@@ -17,7 +17,7 @@ public class BasePage {
     @FindBy(xpath = "//ul[@id='appmenu']//li//span")
     public List<WebElement> modules;
 
-    @FindBy(xpath = "//ul[@id='appmenu']//li[@data-id='dashboard']//span")
+    @FindBy(xpath = "//ul[@id='appmenu']//li[@data-id='dashboard']")
     public WebElement dashboardModule;
 
     @FindBy(xpath = "//ul[@id='appmenu']//li[@data-id='files']")
