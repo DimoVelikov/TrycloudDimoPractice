@@ -13,7 +13,7 @@ Feature: As a user, I should be able to access to Files module.
     And user click the top-left checkbox of the table
     Then verify all the files are selected
 
-  @wip
+
   Scenario: Verify users to add files to Favorites
     Given user on the dashboard page
     When the user clicks the "Files" module
